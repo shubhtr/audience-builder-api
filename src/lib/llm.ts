@@ -1,6 +1,6 @@
-import OpenAI from "openai";
+import { OpenAI } from "openai";
 
-export function getLLMClient(): OpenAI {
+export function getLLMClient(): InstanceType<typeof OpenAI> {
   const provider = (process.env.LLM_PROVIDER || 'openrouter').toLowerCase();
   if (provider === 'ollama') {
     return new OpenAI({
