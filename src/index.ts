@@ -23,6 +23,10 @@ app.use(cors({
 }));
 app.use(express.json());
 
+app.get('/', async(req, res) => {
+  res.status(200).send("Server is running.");
+});
+
 // ── Auth ──────────────────────────────────────────────────────────────────────
 
 app.post('/api/auth/register', async (req, res) => {

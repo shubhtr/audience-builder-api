@@ -44,5 +44,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "exclude": ["node_modules", "check-db.ts", "prisma", "dist"]
+  "exclude": ["node_modules", "check-db.ts", "prisma", "dist", "prisma.config.ts"]
 }
