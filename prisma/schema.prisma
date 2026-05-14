@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+enum Role {
+  ADMIN
+  PLANNER
+}
+
+model User {
+  id            String         @id @default(cuid())
+  email         String         @unique
+  passwordHash  String?
+  role          Role           @default(PLANNER)
+  conversations Conversation[]
+}
+
+model Conversation {
+  id               String    @id @default(cuid())
+  userId           String
+  user             User      @relation(fields: [userId], references: [id])
+  messages         Message[]
+  createdAt        DateTime  @default(now())
+  confirmedSignals Json?
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  role           String       
+  content        Json         
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id])
+  createdAt      DateTime     @default(now())
+}

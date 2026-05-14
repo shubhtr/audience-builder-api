@@ -1,0 +1,127 @@
+Field Name,Field Value,Field Value Description
+gender,m,Male
+gender,f,Female
+language,a1,Afrikaans
+language,a2,Albanian
+language,a3,Amharic
+language,a4,Arabic
+language,a5,Armenian
+language,e1,English
+language,f3,French
+language,g2,German
+language,h3,Hindi
+language,i3,Italian
+language,j1,Japanese
+language,k4,Korean
+language,p3,Portuguese
+language,r2,Russian
+language,s8,Spanish
+language,t1,Tagalog
+language,v1,Vietnamese
+language,c1,"Chinese (Mandarin, Cantonese and other dialects)"
+religion,b,Buddhist
+religion,c,Catholic
+religion,g,Greek Orthodox
+religion,h,Hindu
+religion,i,Islamic
+religion,j,Jewish
+religion,k,Sikh
+religion,l,Lutheran
+religion,m,Mormon
+religion,o,Eastern Orthodox
+religion,p,Protestant
+religion,s,Shinto
+religion,x,Not Known or Unmatched
+ethnic_group,a,Southeast Asian
+ethnic_group,c,Central & Southwest Asian
+ethnic_group,e,Eastern European
+ethnic_group,f,All African American Ethnic Groups
+ethnic_group,i,Middle Eastern
+ethnic_group,j,Jewish
+ethnic_group,m,Mediterranean
+ethnic_group,n,Native American
+ethnic_group,o,Far Eastern
+ethnic_group,p,Polynesian
+ethnic_group,s,Scandinavian
+ethnic_group,t,Other
+ethnic_group,w,Western European
+ethnic_group,y,Hispanic
+ethnic_language,a,Assimilated - English Speaking
+ethnic_language,b,Bilingual - English Primary
+ethnic_language,c,Bilingual - Native Language Primary
+ethnic_language,d,Unassimilated - Native Language Only
+ethnic_hispanic_country,ha,Argentina
+ethnic_hispanic_country,hb,Bolivia
+ethnic_hispanic_country,hc,Cuba
+ethnic_hispanic_country,hd,Dominican Republic
+ethnic_hispanic_country,he,El Salvador
+ethnic_hispanic_country,hm,Mexico
+ethnic_hispanic_country,hp,Puerto Rico
+education,a,High School Graduate
+education,b,College Graduate
+education,c,Graduate School Graduate
+education,d,Vocational/Technical School Graduate
+marital_status,a,Inferred Married
+marital_status,b,Inferred Single
+marital_status,m,Married
+marital_status,s,Single
+hh_generations,1,1 Adult
+hh_generations,2,Adult / Child
+hh_generations,3,Adults / Child / Parent
+home_ownership,h,Homeowner
+home_ownership,r,Renter
+dwelling_type,m,Multi-Unit Residential Home
+dwelling_type,s,Single-Family Home
+property_fuel_type,e,Electric
+property_fuel_type,g,Gas
+property_fuel_type,o,Oil
+property_fuel_type,p,Gas Public/Piped
+credit_rating,a,800+
+credit_rating,b,750 - 799
+credit_rating,c,700 - 749
+credit_rating,d,650 - 699
+credit_rating,e,600 - 649
+credit_rating,f,550 - 599
+credit_rating,g,500-549
+credit_rating,h,Under 499
+hh_income_group,a,"Under $10,000"
+hh_income_group,b,"$10,000 - $14,999"
+hh_income_group,c,"$15,000 - $19,999"
+hh_income_group,d,"$20,000 - $24,999"
+hh_income_group,e,"$25,000 - $29,999"
+hh_income_group,f,"$30,000 - $34,999"
+hh_income_group,g,"$35,000 - $39,999"
+hh_income_group,h,"$40,000 - $44,999"
+hh_income_group,i,"$45,000 - $49,999"
+hh_income_group,j,"$50,000 - $54,999"
+hh_income_group,k,"$55,000 - $59,999"
+hh_income_group,l,"$60,000 - $64,999"
+hh_income_group,m,"$65,000 - $74,999"
+hh_income_group,n,"$75,000 - $99,999"
+hh_income_group,o,"$100,000 - $149,999"
+hh_income_group,p,"$150,000 - $174,999"
+hh_income_group,q,"$175,000 - $199,999"
+hh_income_group,r,"$200,000 - $249,999"
+hh_income_group,s,"$250,000 +"
+net_worth_group,a,Less than $1
+net_worth_group,b,"$1 - $4,999"
+net_worth_group,c,"$5,000 - $9,999"
+net_worth_group,d,"$10,000 - $24,999"
+net_worth_group,e,"$25,000 - $49,999"
+net_worth_group,f,"$50,000 - $99,999"
+net_worth_group,g,"$100,000 - $249,999"
+net_worth_group,h,"$250,000 - $499,999"
+net_worth_group,i,"Greater than $499,999"
+party_affiliation,a,American Independent
+party_affiliation,c,Constitutional
+party_affiliation,d,Democrat
+party_affiliation,e,Reform
+party_affiliation,g,Green
+party_affiliation,i,Independent
+party_affiliation,l,Liberal
+party_affiliation,n,The Alliance Party
+party_affiliation,o,Other
+party_affiliation,p,Peace and Freedom
+party_affiliation,r,Republican
+party_affiliation,s,Socialist
+party_affiliation,u,Undeclared
