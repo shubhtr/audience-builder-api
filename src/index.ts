@@ -180,4 +180,8 @@ app.post('/api/chat', authorize(['ADMIN', 'PLANNER']), async (req, res) => {
   res.json(savedMsg);
 });
 
-app.listen(3001, () => console.log('Backend running on port 3001'));
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(3001, () => console.log('Backend running on port 3001'));
+}
+
+export default app;

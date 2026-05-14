@@ -17,9 +17,9 @@ async function checkConnection() {
       SELECT tablename FROM pg_tables WHERE schemaname = 'public' ORDER BY tablename
     `;
     console.log('✅ Connection successful!');
-    console.log('Tables:', tables.map(t => t.tablename));
+    console.log('Tables:', tables.map((t: { tablename: string }) => t.tablename));
   } catch (error) {
-    console.error('❌ Connection failed:', error.message);
+    console.error('❌ Connection failed:', (error as Error).message);
     process.exit(1);
   } finally {
     await prisma.$disconnect();
