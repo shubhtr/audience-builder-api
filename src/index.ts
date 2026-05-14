@@ -13,7 +13,14 @@ const app = express();
 const adapter = new PrismaPg(process.env.DATABASE_URL!);
 const prisma = new PrismaClient({ adapter });
 
-app.use(cors());
+const allowedOrigin = process.env.CORS_ORIGIN || 'https://audience-builder-frontend.vercel.app';
+app.use(cors({
+  origin: (origin, cb) => {
+    if (!origin || origin === allowedOrigin) return cb(null, true);
+    cb(new Error('Not allowed by CORS'));
+  },
+  credentials: true,
+}));
 app.use(express.json());
 
 // ── Auth ──────────────────────────────────────────────────────────────────────
